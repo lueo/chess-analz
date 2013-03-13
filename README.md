@@ -21,3 +21,11 @@ resources to run chess engine.
 Why not using your own computer?! Which is much more powerful than the server one!
 
 And then, publish on the web, socialize it!
+
+Installation
+---
+
+  1. make
+  2. python src/main.py
+
+(Note that the main program is a prototype now. Will be mature in a week or so.)
