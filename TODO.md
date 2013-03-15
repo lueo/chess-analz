@@ -1,18 +1,17 @@
 TODO list
 ===
 
-    0. Change subprocess to QProcess.
-    1. Using Thread to launch engine in background.
-    2. Using Queue to launch many engines.
-    3. Show threat in depth 5 by using null-move technique.
-
-    1. Streaming Stockfish UCI protocol to QTextBrowser. Lively.
-    2. Parse UCI info lines to get PV and score (may refer to PyGTK, scid)
-    3. Send PV and score to local browser via Socket.io (using python-gevent-socketio) 
-    4. Load PGN game from browser and show computer analysis. Lively.
-    5. Polish client. (Minimize to tray, dashboard, settings, status... etc)
-    6. Establish central server to store games.
-    7. Server games could be analyzed by different engines and compare scores.
-    8. Each move in every game could be analyzed by different engines.
-    9. Convert the client as a node to analyze any given position.
-    10. Giant chess computer cluster!
+- [x] Change subprocess to QProcess.
+- [x] <del>Using Thread to launch engine in background.</del> (Don't need anymore since QProcess is sig-slot model)
+- [x] <del>Using Queue to launch many engines.</del> (Don't need, as above)
+- [ ] Show threat in depth 5 by using null-move technique.
+- [ ] Streaming Stockfish UCI protocol to QTextBrowser. Lively.
+- [ ] Parse UCI info lines to get PV and score (may refer to PyGTK, scid)
+- [ ] Send PV and score to local browser via Socket.io (using python-gevent-socketio)
+- [ ] Load PGN game from browser and show computer analysis. Lively.
+- [ ] Polish client. (Minimize to tray, dashboard, settings, status... etc)
+- [ ] Establish central server to store games.
+- [ ] Server games could be analyzed by different engines and compare scores.
+- [ ] Each move in every game could be analyzed by different engines.
+- [ ] Convert the client as a node to analyze any given position.
+- [ ] Giant chess computer cluster!
